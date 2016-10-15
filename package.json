@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alphaweblab/nucleus.git"
+    "url": "git+https://github.com/alphaweblab/nucleus-framework.git"
   },
   "author": "Alpha Weblab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alphaweblab/nucleus/issues"
+    "url": "https://github.com/alphaweblab/nucleus-framework/issues"
   },
-  "homepage": "https://github.com/alphaweblab/nucleus#readme"
+  "homepage": "https://github.com/alphaweblab/nucleus-framework#readme"
 }

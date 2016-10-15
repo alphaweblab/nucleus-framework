@@ -6,7 +6,7 @@
     "Alpha Weblab"
   ],
   "license": "",
-  "homepage": "https://github.com/alphaweblab/nucleus",
+  "homepage": "https://github.com/alphaweblab/nucleus-framework",
   "ignore": [
     "**/.*",
     "node_modules",
