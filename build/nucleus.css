@@ -93,6 +93,9 @@ Module: Grid
 .g-grid > .g-column.-alignStretch {
   align-self: stretch;
 }
+.g-grid > .g-column.-widthAuto {
+  width: auto;
+}
 .g-grid > .g-column.-columnMobile-1 {
   width: 8.33333333%;
 }
