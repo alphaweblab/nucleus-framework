@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 @import 'color';
 
 @mixin border($side: all, $width: 1px, $color: color(gray, 100), $style: solid) {

@@ -1,5 +1,5 @@
-@import 'settings/variables';
-@import 'plugins/type-checking/type-checking';
+@import '../settings/variables';
+@import '../plugins/type-checking/type-checking';
 
 @mixin size($width: auto, $height: auto) {
 	@if $width == auto {

@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 
 @mixin shadow($type, $level) {
 	@if $type == box {

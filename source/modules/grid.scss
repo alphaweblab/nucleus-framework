@@ -1,6 +1,6 @@
-@import 'settings/variables';
+@import '../settings/variables';
 @import 'breakpoint';
-@import 'plugins/type-checking/type-checking';
+@import '../plugins/type-checking/type-checking';
 
 @mixin grid-container($type: fixed, $gutter: true, $align: flex-start, $content: flex-start, $wrap: wrap) {
 	display: flex;

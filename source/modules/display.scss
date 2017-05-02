@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 @import 'breakpoint';
 
 @mixin show($device, $display: block) {

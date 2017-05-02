@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 
 @mixin corner($side: all, $radius: small) {
 	$properties: map-get($border-radius-sides, $side);

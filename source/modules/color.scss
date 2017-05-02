@@ -1,5 +1,5 @@
-@import 'settings/variables';
-@import 'plugins/open-color/open-color';
+@import '../settings/variables';
+@import '../plugins/open-color/open-color';
 
 @function color($shade: primary, $weight: 500) {
 	@if $shade == primary {

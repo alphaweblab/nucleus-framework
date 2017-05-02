@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 
 @mixin typography($font: heading, $size: medium, $color: color(gray, 900), $weight: 400, $line-height: auto, $case: none) {
 	font-family: #{map-get($fonts, $font)};

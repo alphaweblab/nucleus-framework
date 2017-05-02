@@ -1,4 +1,4 @@
-@import 'settings/variables';
+@import '../settings/variables';
 
 @mixin flex-container($align: center, $content: flex-start) {
 	display: flex;
