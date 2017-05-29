@@ -15,7 +15,7 @@
 	}
 	@if $font == body {
 		@if is-length($size) == false {
-			font-size: #{map-get(map-get($typography-scales, heading), $size)};
+			font-size: #{map-get(map-get($typography-scales, body), $size)};
 		}
 		@if is-length($size) == true {
 			font-size: $size;
@@ -28,5 +28,8 @@
 		@if $font == body {
 			line-height: $typography-scale * $typography-scale;
 		}
+	}
+	@else {
+		line-height: $line-height;
 	}
 }

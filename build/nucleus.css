@@ -57,6 +57,31 @@ fieldset {
 a {
   text-decoration: none; }
 
+i, cite, em, var, address, dfn {
+  font-style: normal; }
+
+/***
+
+VARIABLES
+This is master variables file. This file must not be edited.
+
+***/
+/***
+
+IMPORT CUSTOMIZATIONS
+This file imports settings.less file. Any customization must be updated in
+settings.less file.
+
+***/
+/***
+
+CONFIGURATION
+This is master configuration file for customizing Nucleus Framework.
+Here are the available configuration options:
+
+size: grid4px|grid8px|fibonacci
+
+***/
 /***
 
 VARIABLES

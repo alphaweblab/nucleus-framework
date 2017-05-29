@@ -4,8 +4,8 @@
 	position: $type;
 	@if $side == left { left: $x; }
 	@if $side == right { right: $x; }
-	@if $side == top { top: $y; }
-	@if $side == bottom { top: $y; }
+	@if $side == top { top: $x; }
+	@if $side == bottom { top: $x; }
 	@if $side == top-left { left: $x; top: $y; }
 	@if $side == top-right { right: $x; top: $y; }
 	@if $side == bottom-left { left: $x; bottom: $y; }

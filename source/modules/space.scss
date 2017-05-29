@@ -3,6 +3,16 @@
 @mixin padding($side, $size) {
 	$type: padding;
 	$properties: map-get($sides, $side);
+	@if $size == 0 {
+		@each $property in $properties {
+			#{$type}-#{$property}: $size;
+		}
+	}
+	@if $size == auto {
+		@each $property in $properties {
+			#{$type}-#{$property}: $size;
+		}
+	}
 	@if is-length($size) == false {
 		@each $property in $properties {
 			#{$type}-#{$property}: #{map-get($sizes, $size)};
@@ -23,6 +33,16 @@
 @mixin margin($side, $size) {
 	$type: margin;
 	$properties: map-get($sides, $side);
+	@if $size == 0 {
+		@each $property in $properties {
+			#{$type}-#{$property}: $size;
+		}
+	}
+	@if $size == auto {
+		@each $property in $properties {
+			#{$type}-#{$property}: $size;
+		}
+	}
 	@if is-length($size) == false {
 		@each $property in $properties {
 			#{$type}-#{$property}: #{map-get($sizes, $size)};
