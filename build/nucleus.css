@@ -87,9 +87,17 @@ size: grid4px|grid8px|fibonacci
   flex-wrap: wrap;
   padding-right: 1rem;
   padding-left: 1rem; }
+  .g-grid .g-grid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -1rem;
+    margin-left: -1rem; }
   .g-grid.-gutterNone {
     padding-left: 0;
     padding-right: 0; }
+  .g-grid.-gutterNone .g-grid {
+    margin-left: 0;
+    margin-right: 0; }
   .g-grid.-gutterNone .g-cell {
     padding-left: 0;
     padding-right: 0; }
@@ -109,11 +117,13 @@ size: grid4px|grid8px|fibonacci
     justify-content: flex-end; }
   .g-grid.-contentCenter {
     justify-content: center; }
-  .g-grid .g-grid {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: -1rem;
-    margin-left: -1rem; }
+  .g-grid.-containerLeft {
+    margin-right: auto; }
+  .g-grid.-containerRight {
+    margin-left: auto; }
+  .g-grid.-containerCenter {
+    margin-left: auto;
+    margin-right: auto; }
 
 .g-grid > .g-cell {
   flex: 0 0 auto;

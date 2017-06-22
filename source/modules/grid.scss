@@ -7,7 +7,9 @@
 	flex-wrap: wrap;
 	padding-right: #{map-get($grid, gutter)};
 	padding-left: #{map-get($grid, gutter)};
+	.g-grid {padding-left: 0; padding-right: 0; margin-right: -#{map-get($grid, gutter)}; margin-left: -#{map-get($grid, gutter)};}
 	&.-gutterNone {padding-left: 0; padding-right: 0;}
+	&.-gutterNone .g-grid {margin-left: 0; margin-right: 0;}
 	&.-gutterNone .g-cell {padding-left: 0; padding-right: 0;}
 	&.-wrapNone {flex-wrap: nowrap;}
 	&.-alignStart {align-items: flex-start;}
@@ -17,12 +19,9 @@
 	&.-contentStart {justify-content: flex-start;}
 	&.-contentEnd {justify-content: flex-end;}
 	&.-contentCenter {justify-content: center;}
-	.g-grid {
-		padding-left: 0;
-		padding-right: 0;
-		margin-right: -#{map-get($grid, gutter)};
-		margin-left: -#{map-get($grid, gutter)};
-	}
+	&.-containerLeft {margin-right: auto;}
+	&.-containerRight {margin-left: auto;}
+	&.-containerCenter {margin-left: auto; margin-right: auto;}
 }
 
 .g-grid > .g-cell {
