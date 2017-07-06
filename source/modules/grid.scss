@@ -58,16 +58,16 @@
 			margin-left: (($i * 100) / map-get($grid, columns)) * 1%;
 		}
 	}
-	@for $i from 1 through map-get($grid, columns) {
-		.g-grid > .g-cell.-orderMobile-#{$i} {
-			order: $i;
-		}
-	}
 }
 
 @include breakpoint(mobile-only) {
 	.g-grid > .g-cell.-hideMobile {display: none;}
 	.g-grid > .g-cell.-showMobile {display: block;}
+	@for $i from 1 through map-get($grid, columns) {
+		.g-grid > .g-cell.-orderMobile-#{$i} {
+			order: $i;
+		}
+	}
 }
 
 @include breakpoint(tablet) {
@@ -88,16 +88,16 @@
 			margin-left: (($i * 100) / map-get($grid, columns)) * 1%;
 		}
 	}
-	@for $i from 1 through map-get($grid, columns) {
-		.g-grid > .g-cell.-orderTablet-#{$i} {
-			order: $i;
-		}
-	}
 }
 
 @include breakpoint(tablet-only) {
 	.g-grid > .g-cell.-hideTablet {display: none;}
 	.g-grid > .g-cell.-showTablet {display: block;}
+	@for $i from 1 through map-get($grid, columns) {
+		.g-grid > .g-cell.-orderTablet-#{$i} {
+			order: $i;
+		}
+	}
 }
 
 @include breakpoint(desktop) {
@@ -118,16 +118,16 @@
 			margin-left: (($i * 100) / map-get($grid, columns)) * 1%;
 		}
 	}
-	@for $i from 1 through map-get($grid, columns) {
-		.g-grid > .g-cell.-orderDesktop-#{$i} {
-			order: $i;
-		}
-	}
 }
 
 @include breakpoint(desktop-only) {
 	.g-grid > .g-cell.-hideDesktop {display: none;}
 	.g-grid > .g-cell.-showDesktop {display: block;}
+	@for $i from 1 through map-get($grid, columns) {
+		.g-grid > .g-cell.-orderDesktop-#{$i} {
+			order: $i;
+		}
+	}
 }
 
 @include breakpoint(highdef) {
@@ -148,14 +148,14 @@
 			margin-left: (($i * 100) / map-get($grid, columns)) * 1%;
 		}
 	}
-	@for $i from 1 through map-get($grid, columns) {
-		.g-grid > .g-cell.-orderHighdef-#{$i} {
-			order: $i;
-		}
-	}
 }
 
 @include breakpoint(highdef) {
 	.g-grid > .g-cell.-hideHighdef {display: none;}
 	.g-grid > .g-cell.-showHighdef {display: block;}
+	@for $i from 1 through map-get($grid, columns) {
+		.g-grid > .g-cell.-orderHighdef-#{$i} {
+			order: $i;
+		}
+	}
 }
