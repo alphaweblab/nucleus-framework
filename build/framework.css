@@ -1,45 +1,33 @@
 /***
 
-VARIABLES
-This is master variables file. This file must not be edited.
-
-***/
-/***
-
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
+
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 /***
 
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
+VARIABLES
+This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
 
-size: grid4px|grid8px|fibonacci
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 * {
@@ -62,24 +50,18 @@ i, cite, em, var, address, dfn {
 
 /***
 
+LISTS
+This is master lists file. This file must not be edited.
+
+***/
+/***
+
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
 
-***/
-/***
-
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 .g-grid {
@@ -1287,153 +1269,65 @@ size: grid4px|grid8px|fibonacci
 
 /***
 
-VARIABLES
-This is master variables file. This file must not be edited.
-
-***/
-/***
-
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
+
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 /***
 
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
+
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 /***
 
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
+
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
 /***
 
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
+LISTS
+This is master lists file. This file must not be edited.
 
 ***/
 /***
 
 VARIABLES
 This is master variables file. This file must not be edited.
+Here is the variable name format for further implementation and customization.
+
+namespace-module-parameter-variant
+e.g. nc-breakpoints-mobile-start
 
 ***/
-/***
-
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
-
-***/
-/***
-
-VARIABLES
-This is master variables file. This file must not be edited.
-
-***/
-/***
-
-IMPORT CUSTOMIZATIONS
-This file imports settings.less file. Any customization must be updated in
-settings.less file.
-
-***/
-/***
-
-CONFIGURATION
-This is master configuration file for customizing Nucleus Framework.
-Here are the available configuration options:
-
-size: grid4px|grid8px|fibonacci
-
-***/
-.s-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-
-.c-heading {
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1rem;
-  font-weight: 400; }
-
-.c-cell {
-  background-color: #a3daff;
-  border: 1px solid #228ae6;
-  padding: 0.5rem 0;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  color: #1862ab; }
